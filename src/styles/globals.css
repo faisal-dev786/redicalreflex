@@ -142,10 +142,7 @@ iframe{
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .service_box {
-        /* border: 1px solid #94A9B1; */
-        padding: 50px;
-    }
+
 
     .line {
         background-color: orange;

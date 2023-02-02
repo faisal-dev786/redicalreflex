@@ -36,7 +36,7 @@ const contact = () => {
 
                                 <div className='flex justify-between max-w-[520px] mt-5 '>
                                 <p className='mb-2 mt-7 text-[#868d94]'>Cooomments / Feedback / Enquiry</p>
-                                <img className='w-[100px] mb-[-20px] z-50' src="/text-area-bg (1).png" alt="" />
+                                <img className='h-[70px] w-[100px] sm:w-[100px]  sm:mb-[-20px] z-50' src="/text-area-bg (1).png" alt="" />
 
                                 </div>
                                 

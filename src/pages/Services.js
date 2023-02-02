@@ -11,12 +11,12 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <h1 className='text-[white] text-center text-3xl sm:text-4xl font-semibold mb-10 '>
+                    <h1 className='text-[white] text-center text-2xl sm:text-4xl font-semibold mb-10 '>
                         SERVICES WE OFFER
                     </h1>
 
                     <div className="grid">
-                        <div className='service_box rounded-tl-lg rounded-tr-lg sm:rounded-tr
+                        <div className='p-5 sm:p-40 rounded-tl-lg rounded-tr-lg sm:rounded-tr
                         border-x border-y boerder-solid border-[#94A9B1]
                         sm:border-x sm:border-y sm:border-solid sm:border-[#94A9B1]'>
                             <h1 className='text-white text-center sm:text-left 
@@ -26,7 +26,7 @@ const Services = () => {
 
 
 
-                        <div className='service_box 
+                        <div className='p-5 sm:p-40 
                         border-x border-solid border-[#94A9B1]
                        sm:border-l-0 sm:border-r sm:border-y sm:border-solid sm:border-[#94A9B1]'>
                             <h1 className='text-white text-1xl sm:text-2xl text-center sm:text-left font-light mb-5'>CORPORATE IDENTITY DESIGNING</h1>
@@ -35,7 +35,7 @@ const Services = () => {
 
 
 
-                        <div className='service_box
+                        <div className='p-5 sm:p-40
                         border-x border-y border-solid border-[#94A9B1] 
                          sm:border-y sm:border-r sm:border-l-0 sm:border-solid sm:border-[#94A9B1] sm:rounded-tr-lg '>
                             <h1 className='text-white text-1xl sm:text-2xl text-center sm:text-left font-light mb-5'>CUSTOMIZED WEBSITE DESIGNING & DEVELOPMENT</h1>
@@ -44,7 +44,7 @@ const Services = () => {
 
 
 
-                        <div className='service_box 
+                        <div className='p-5 sm:p-40
                         border-x border-solid border-b border-[#94A9B1]'>
                             <h1 className='text-white text-1xl sm:text-2xl text-center sm:text-left font-light mb-5'>BROCHURE DESIGNING</h1>
                             <p className='text-[#94A9B1] mb-5 text-center sm:text-left'>We design and print brochures with the latest advancement to get desired results. Our designs will convey your message with clarity and accuracy to your customers.</p>
@@ -52,7 +52,7 @@ const Services = () => {
 
 
 
-                        <div className='service_box
+                        <div className='p-5 sm:p-40
                         border-x border-solid border-b border-[#94A9B1]
                         sm:border-l-0 '>
                             <h1 className='text-white text-1xl sm:text-2xl text-center sm:text-left font-light mb-5'>COMPANY PROFILE DESIGNING</h1>
@@ -61,7 +61,7 @@ const Services = () => {
 
 
 
-                        <div className='service_box
+                        <div className='p-5 sm:p-40
                         border-x border-solid border-b border-[#94A9B1] sm:border-l-0
                         '>
                             <h1 className='text-white text-1xl sm:text-2xl text-center  sm:text-left font-light mb-5'>PRODUCT CATALOGUE DESIGNING</h1>
@@ -69,19 +69,19 @@ const Services = () => {
                         </div>
 
 
-                        <div className='service_box 
+                        <div className='p-5 sm:p-40 
                         border-x border-solid border-b border-[#94A9B1]'>
                             <h1 className='text-white text-center sm:text-left text-1xl sm:text-2xlfont-light mb-5'>PACKAGING & LABELLING</h1>
                             <p className='text-[#94A9B1] text-center sm:text-left mb-5'>Packaging and label design is one of the most effective advertising ways yet often overlooked. RadicalReflex, the best packaging design India, takes advantage of this opportunity and offers designs so as to coordinate with your overall marketing plans.</p>
                         </div>
 
 
-                        <div className='service_box 
+                        <div className='p-5 sm:p-40 
                         border-x border-solid border-b border-[#94A9B1] sm:border-l-0'>
                             <h1 className='text-white text-center sm:text-left text-1xl sm:text-2xlfont-light mb-5'>MARKETING COLLATERAL DESIGNING</h1>
                             <p className='text-[#94A9B1] text-center sm:text-left mb-5'>Marketing collateral designing (flyer, leaflet, pamphlet, hoarding, banners, standees etc.) from RadicalReflex, the leading digital marketing services company in Delhi NCR, will provide you marketing campaigns with beautiful and clear designs to leave a lasting impression.</p>
                         </div>
-                        <div className='service_box 
+                        <div className='p-5 sm:p-40 
                         border-x border-solid border-b border-[#94A9B1] sm:border-l-0'>
                             <h1 className='text-white text-center sm:text-left text-1xl sm:text-2xl font-light mb-5'>360 DEGREE BRANDING SOLUTIONS</h1>
                             <p className='text-[#94A9B1] text-center sm:text-left mb-5'>Brands are created of integrity, with an honest point of view offering believable and desirable brand promise. We have developed a serious branding process which is based on understanding the inspirational force that are behind customers’ thinking and activities. We then transform this knowledge into action.</p>

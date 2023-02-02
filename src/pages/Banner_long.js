@@ -4,7 +4,7 @@ const Banner_long = () => {
     return (
         <>
             <div className="bg-[#13191F] text-white h-[300px] mt-[-40px]">
-                <div className="px-10 sm:px-32">
+                <div className="wrapper">
                     <div className='line_container py-10'>
                         <div className='line3'>
                         </div>

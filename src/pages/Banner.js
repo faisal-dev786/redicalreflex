@@ -11,7 +11,7 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <h1 className='text-[white] text-center text-2xl sm:text-4xl font-semibold pb-2 sm:pb-10 '>
+                    <h1 className='text-[white] text-center text-1xl sm:text-4xl font-semibold pb-2 sm:pb-10 '>
                         GET CUSTOMIZED, FRESH WEBSITE BY LEADING WEB DESIGN COMPANY INDIA
                     </h1>
                     <p className='text-[#94A9B1] text-center pt-5 '>Every successful business begins with a great website today and we provide you the apt online presence your business needs to flourish. Along with skills we put in creative effort to turn your visual image into virtual reality. Big corporate houses endeavour for core marketing and branding to meet business standards for which they need best mobile responsive website designing services. Radicalreflex, the leading web design company India, offer variety of websites to fit in different business needs and expectations.</p>
