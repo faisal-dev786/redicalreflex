@@ -5,7 +5,6 @@ import Site_design from './Site_design'
 import Banner_long from './Banner_long'
 import Service_offer from './Service_offer'
 import Contact from './Contact'
-import Tabs from './tabs'
 import Slider from './Slider'
 
 const Index = () => {
@@ -18,7 +17,6 @@ const Index = () => {
     <Banner_long/>
     <Contact/>
     <Service_offer/>
-    {/* <Tabs/> */}
    
     </>
   )
