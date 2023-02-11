@@ -3,7 +3,7 @@ import React from 'react'
 const Service_offer = () => {
     return (<>
         <div className='bg-[#E8EDEE]'>
-            <div className='wrapper pt-10'>
+            <div className='wrapper'>
                 <h1 className='text-center sm:text-left text-2xl sm:text-4xl font-semibold mb-5 sm:pt-20 sm:pb-10'>
                     WE OFFER A WIDE VARIETY OF WEB DESIGN SERVICES IN INDIA
                 </h1>
