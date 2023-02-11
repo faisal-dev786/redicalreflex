@@ -28,7 +28,7 @@ export default function Slider() {
                     grabCursor={true}
                     centeredSlides={true}
                     loop={true}
-                    centeredSlide={true}
+                    
                     spaceBetween={0}
                     slidesPerView={"2"}
                     coverflowEffect={{
