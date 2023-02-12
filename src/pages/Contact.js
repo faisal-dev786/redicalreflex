@@ -56,10 +56,10 @@ const contact = () => {
                                     <p className='text-[#f55950] py-5' > 3B, Top Floor, Kehar Singh Estate Saidulajab, Saket, New Delhi-110068 India</p>
                                 </div>
                                 <div className='flex gap-[20px]'>
-                                    <a href=""><img className='max-w-[50px] max-h-[50px]' src="/icons8-facebook-50.png" alt="" /></a>
-                                    <a href=""> <img className='max-w-[50px] max-h-[50px]' src="/icons8-gmail-logo-50.png" alt="" /></a>
-                                    <a href=""> <img className='max-w-[50px] max-h-[50px]' src="/icons8-linkedin-circled-50.png" alt="" /></a> 
-                                   <a href=""><img className='max-w-[50px] max-h-[50px]' src="/icons8-twitter-50.png" alt="" /></a>
+                                    <a href=""><img className='bg-[#f55950] max-w-[50px] max-h-[50px]' src="/icons8-facebook-50.png" alt="" /></a>
+                                    <a href=""> <img className=' bg-[#f55950] max-w-[50px] max-h-[50px]' src="/icons8-gmail-logo-50.png" alt="" /></a>
+                                    <a href=""> <img className=' bg-[#f55950] max-w-[50px] max-h-[50px]' src="/icons8-linkedin-circled-50.png" alt="" /></a> 
+                                   <a href=""><img className=' bg-[#f55950] max-w-[50px] max-h-[50px]' src="/icons8-twitter-50.png" alt="" /></a>
                                    
                                     
                                 </div>
