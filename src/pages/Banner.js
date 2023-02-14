@@ -3,6 +3,7 @@ import React from 'react'
 const Banner = () => {
     return (
         <>
+        
             <div className='bg-[#13191F]'>
                 <div className='wrapper'>
                     {/* line */}

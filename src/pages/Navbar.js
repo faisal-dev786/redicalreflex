@@ -1,14 +1,15 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 const navigation = [
-  { name: 'PROFILE', href: '#', current: false },
-  { name: 'SERVICES', href: '#', current: false },
-  { name: 'CLIENTS', href: '#', current: false },
-  { name: 'PORTFOLIO', href: '#', current: false },
-  { name: 'AWARDS', href: '#', current: false },
-  { name: 'CONTACTS', href: '#', current: false },
+  { name: 'PROJECTS', href: '/Slider', current: false },
+  { name: 'SERVICES', href: '/Service_offer', current: false },
+  { name: 'DESIGNING PROCESS', href: '/Site_design', current: false },
+  // { name: 'PORTFOLIO', href: '#', current: false },
+  { name: 'MORE SERVICES', href: '/Services', current: false },
+  { name: 'CONTACTS', href: '/Contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -17,6 +18,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
+  
     <Disclosure as="nav" className="bg-white py-4 ">
       {({ open }) => (
         <>
@@ -49,9 +51,13 @@ export default function Navbar() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                     
+                      
+                      <Link
                         key={item.name}
+                        
                         href={item.href}
+                        
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
@@ -59,7 +65,8 @@ export default function Navbar() {
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
+                      
                     ))}
                   </div>
                 </div>
@@ -153,5 +160,6 @@ export default function Navbar() {
         </>
       )}
     </Disclosure>
+
   )
 }

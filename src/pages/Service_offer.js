@@ -2,6 +2,7 @@ import React from 'react'
 
 const Service_offer = () => {
     return (<>
+    
         <div className='bg-[#E8EDEE]'>
             <div className='wrapper'>
                 <h1 className='text-center sm:text-left text-2xl sm:text-4xl font-semibold mb-5 sm:pt-20 sm:pb-10'>
@@ -25,7 +26,7 @@ const Service_offer = () => {
                     </p></div>
                     
                 </div>
-                <div className="grid_offer border-b border-solid border-[grey] mb-24">
+                <div className="grid_offer  ">
                     <div className="span-row-2"><h1 className='mb-5 sm:mb-0 text-center sm:text-left text-2xl sm:text-3xl'>WHY CHOOSE RADICALREFLEX FOR BEST WEBSITE DESIGN</h1></div>
                     <div><p className='mb-4 text-center sm:text-left '>Because we understand that websites represent you and your business online and we let your first impressions last forever. We know a great website not just needs good appearance, but also right layout and airtight code to make the best of leads and conversions. With RadicalReflex, best web design company India, you can stay assured that you are working with:
                     </p></div>

@@ -4,7 +4,7 @@ const Site_design = () => {
     return (
         <>
             <div className='bg-[#E8EDEE]'>
-                <div className='wrapper mb-10 sm:mb-10'>
+                <div className='wrapper mb-10'>
                     <div className='line_container py-10'>
                         <div className='line2'>
                         </div>
